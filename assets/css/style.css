@@ -32,13 +32,25 @@ a:hover {
     font-weight: 700;
     padding: 15px 36px;
 }
+.secondary-btn {
+    border: 1s solid #FD6E0A;
+    border-radius: 5px;
+    background: transparent;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 36px;
+}
 
 /* Shared CSS end here */
 
 /* Navbar part CSS start from here */
+.header {
+    background-color: #FFF8F3;
+}
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -70,3 +82,14 @@ nav a {
 }
 
 /* Navbar part CSS end here */
+
+/* Banner part CSS start from here */
+.banner {
+    display: flex;
+    align-items: center;
+    padding: 30px 30px 30px 150px;
+}
+.banner-img > img{
+    width: 500px;
+}
+/* Banner part CSS end here */
