@@ -1,0 +1,72 @@
+/* Common or Universal CSS start from here */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* ul,
+ol,
+li {
+    list-style: none;
+} */
+
+/* a,
+a:hover {
+    text-decoration: none;
+} */
+
+/* Common or Universal CSS end here */
+
+/* Shared CSS start here */
+.primary-btn {
+    border: 0;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 36px;
+}
+
+/* Shared CSS end here */
+
+/* Navbar part CSS start from here */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.logo span {
+    color: #FD6E0A;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+/* Navbar part CSS end here */
