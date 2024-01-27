@@ -67,8 +67,10 @@ a:hover {
 }
 
 nav {
+    max-width: 1140px;
+    margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
