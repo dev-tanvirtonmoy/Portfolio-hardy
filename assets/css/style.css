@@ -191,22 +191,21 @@ main {
 
 /* About part CSS end here */
 
+/* What I do part CSS start from here */
 #skills-part-description {
     width: 909px;
     margin: auto;
 }
-
 .skills-container {
     display: flex;
     justify-content: space-between;
 }
-
 .skills {
     padding: 20px 33px;
     background-color: #fff;
     border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-
 .skills-tittle {
     color: #181818;
     font-size: 20px;
@@ -219,5 +218,6 @@ main {
     font-weight: 400;
     line-height: 28px;
 }
+/* What I do part CSS end here */
 
 /* Main part CSS end here */
