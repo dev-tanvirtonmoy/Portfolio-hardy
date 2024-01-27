@@ -192,32 +192,80 @@ main {
 /* About part CSS end here */
 
 /* What I do part CSS start from here */
+.what-i-do {
+    margin-bottom: 130px;
+}
+
 #skills-part-description {
     width: 909px;
     margin: auto;
 }
+
 .skills-container {
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
+    margin-top: 50px;
 }
+
 .skills {
     padding: 20px 33px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
+
 .skills-tittle {
     color: #181818;
     font-size: 20px;
     font-weight: 700;
     margin: 30px 0 20px 0;
 }
+
 .skills-description {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
 }
+
 /* What I do part CSS end here */
+/* Resume part CSS start from here */
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+.resume-column-tittle {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.resume-item {
+    margin-bottom: 30px;
+}
+.resume-item-tittle {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-item-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0 20px 0;
+}
+.resume-item-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+    width: 511px;
+}
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+}
+/* Resume part CSS end here */
 
 /* Main part CSS end here */
