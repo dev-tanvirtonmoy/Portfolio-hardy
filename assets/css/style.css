@@ -181,11 +181,43 @@ main {
     font-weight: 400;
     line-height: 30px;
 }
+
 .about-info-description {
     color: #474747;
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
 }
+
 /* About part CSS end here */
+
+#skills-part-description {
+    width: 909px;
+    margin: auto;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills {
+    padding: 20px 33px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.skills-tittle {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 0 20px 0;
+}
+.skills-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
 /* Main part CSS end here */
